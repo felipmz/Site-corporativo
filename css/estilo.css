@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+   
+
+}
+
+/*fundo*/
+section {
+    padding-right: 10px;
+}
+.menu-cll{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    display: none;
+    
+}
+.menu-cll li{
+    border: solid black 1px;
+    padding: 15px;
+    cursor: pointer;
+}
+.menu-img img{
+    display: none;
+}
+
+
+.img_logo{padding-right:450px ;}
+.menu{display: flex;flex-wrap: nowrap;}
+
+.menu a:hover{
+    border-bottom: 3px solid #ffdd33;
+    border-radius: 2px;
+}
+ .frase{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    padding-top: 10%;
+    
+ }
+
+ @media screen and (max-width:680px){
+    
+    .frase{
+        width:350px ;
+        padding-bottom: 10px;
+    }
+    .frase h1{
+        font-size: 30px;
+    }
+    .frase p{
+        font-size: 15px;
+    }
+    .menu{
+        display: none;
+    } 
+    img.mecbook{
+        display: none;
+    }
+    section.mec{
+        display: none;
+    }
+    h1.titulo-rolo{
+        display: none;
+        
+    }
+    .slick-carousel.slick-initialized.slick-slider{
+        display: none;
+
+    }
+
+
+    .menu-cll{
+        display: none;
+    }
+    .menu-img img{
+        display: block;
+    }
+    
+    
+}
+
+
+.baner-do-meio{
+    background-image: url("../images/banner_meio.svg");
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    
+
+}
+.baner-do-meio button{
+    padding-bottom: 90px;
+    
+}
+#dentro{
+    padding: 20px;
+}
+
+
+.logos-marcas{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:680px){
+    #ele-logo{
+        display: none;
+        
+        
+    }
+    .img_logo{
+        position: relative;
+        left: 22%;
+        right: 50%;
+    }
+    div.pq-titulo{
+        padding-top: 20px;
+    }
+    .logos-marcas{
+        position: absolute;
+        top: 60%;
+        left: -4%;
+        align-items: center;
+    }
+        
+    }
+    @media screen and (max-width:680px){
+    .pq-titulo{
+        padding-top:150px ;
+
+        
+    }
+    .baner-do-meio .dentro-dq2{
+        font-size: 30px !important;
+        font-weight: 700;
+        
+    }
+    .baner-do-meio .dentro-dq{
+        font-size: 15px !important;
+        
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+
+
+    
+    
+    }
+    @media screen and (max-width:680px){
+        
+        .copys{
+            display: flex;
+            
+            
+        }
+        div .copys{
+            flex-direction: column;
+            width: 200px;
+            align-items: center;
+            padding: 0;
+        }
+        
+        h1.h1{
+            font-size: 40px !important;
+            padding: 20px 20px 20px 50px;
+        }
+        input#elemento-contato{
+            width: 400px;
+            
+        }
+        textarea.texto-msg{
+        max-width: 300px !important;
+        min-width: 300px !important;
+        min-height: 200px !important;
+        }
+        input#elemento-contato{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-width: 300px;
+        }
+        .final{
+            display: none;
+            background-color:#ECECEC ;
+        }
+        div.contato{
+            min-height: 100%;
+        }
+        div.contato{
+           display: none;
+        }
+        }
+    
+
+.copys{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-bottom: 120px;
+    background-color: rgb(246, 250, 253);
+    width: 100%;
+    padding-left: 20%;
+    
+}
+
+.copys div img{
+    width: 90px;
+    
+}
+.copys div{
+    
+    padding: 40px 0px 0px 20px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 10px;
+    width: 350px;
+    height: 280px;
+    box-shadow:0px 0px 10px rgb(202, 200, 200);
+}
+.logos-marcas img{
+    width: 190px;
+    margin-top: 20%;
+}
+
+.porque-nos{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(246, 250, 253);
+    text-align: center;
+    font-size: 250%;
+    
+    
+}
+.contato{
+    background-color: #0c51c0;
+    border-radius: 10px;
+    border-bottom: none !important;
+    padding: 7px !important;
+}
+
+#elemento{padding: 5px;color: rgb(255, 255, 255);text-decoration: none;}
+
+.corpo{
+    background-image:url("../images/bg.svg");
+    width: 100%;
+    height: 1220px;
+    display: flex;
+    flex-direction: column;
+    background-position: 10%;
+    
+
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    
+}
+.cabeca {
+    padding: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.mec{
+    display: flex;
+    padding-left: 14%;
+    
+}
+    
+
+.ele-mec{
+    width: 60%;
+    font-size: 60%;
+    display: flex;
+}
+.ele-mec img{
+    width: 20%;
+    
+    
+}
+.ele-mec p{
+   padding-top: 25px;
+   color: #010203a6;
+   font-size: 12px;
+   
+    
+}
+
+.mecbook{
+   display: flex;
+   width: 700px;
+    
+}
+.ele-tudo{
+    padding-top: 4%;
+}
+
+
+
+.slick-carousel {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10%;
+
+  }
+  
+  /* The width of each slide */
+  .slick-slide {
+    
+    margin: 8px;
+  }
+  
+  .carousel{
+    display: flex;
+    align-items: center;
+    width: 1900px;
+    background-color: #000000;
+  }
+
+  .elemento-slider{
+    display: flex;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #cbcdd1;
+  }
+
+  .elemento-slider p{
+    font-size: 10px;
+  }
+.slick-carousel {
+    padding: 1%;
+    
+}
+
+.contato{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 0;
+    background-color: #ececec;
+    
+}
+#elemento-contato{
+    margin: 2px;
+    width: 700px;
+    border-radius: 8px;
+    height: 40px;
+    padding: 1px;
+    border: none;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.315);
+    
+}
+.texto-msg{
+    border-radius: 10px;
+    padding: 5px;
+}
+.contato h1{
+   font-size: 50px;
+
+      
+}
+.contato-tudo{
+    width: 100.5%;
+}
+
+.final{
+    background-color: #0c51c0;
+
+
+}
+.creditos{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    left: 15%;
+    right: 50%;
+    width: 400px;
+}
